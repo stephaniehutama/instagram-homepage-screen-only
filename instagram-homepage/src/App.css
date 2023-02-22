@@ -1,0 +1,32 @@
+#icon {
+  color: black;
+}
+
+#icon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#canclick:hover {
+  cursor: pointer;
+}
+
+#cantype {
+  opacity: 0.6;
+}
+
+#cantype:hover {
+  cursor: text;
+}
+
+#menu {
+  color: black;
+}
+
+#menu:hover {
+  transform: scale(1.05);
+}
+
+#fix {
+  transform: scale(1) !important;
+}
