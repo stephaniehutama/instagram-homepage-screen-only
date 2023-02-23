@@ -27,6 +27,56 @@
   transform: scale(1.05);
 }
 
-#fix {
-  transform: scale(1) !important;
+.no-border {
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+#emoji {
+  opacity: 0.8;
+}
+
+#emoji:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#prof-picture {
+  bordercolor: "black";
+  color: "black";
+}
+
+#card-header {
+  padding: 0 !important;
+}
+
+.card {
+  border: none;
+}
+
+#name {
+  opacity: 0.8;
+}
+
+#profile {
+  cursor: pointer;
+}
+
+#switch {
+  color: #1da1f2;
+}
+
+#switch:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#link {
+  cursor: pointer;
+}
+
+#comment {
+  cursor: pointer;
+  color: gray;
 }
