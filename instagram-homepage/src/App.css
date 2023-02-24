@@ -80,3 +80,16 @@
   cursor: pointer;
   color: gray;
 }
+
+#marks {
+  color: #c0c0c0 !important;
+  text-decoration: none !important;
+}
+
+#marks:hover {
+  text-decoration: underline !important;
+}
+
+#story:hover {
+  cursor: pointer;
+}

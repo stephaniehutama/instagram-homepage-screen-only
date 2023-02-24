@@ -10,6 +10,7 @@ export default function Stories({ story: stories }) {
           <div
             className="border border-3 border-danger"
             style={{ borderRadius: 50 }}
+            id="story"
           >
             <center>
               <img

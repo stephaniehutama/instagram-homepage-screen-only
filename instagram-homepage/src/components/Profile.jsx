@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { BsDot } from "react-icons/bs";
 const baseUrl = "https://private-d7df8d-instagrammockup.apiary-mock.com";
 
 export default function Profile() {
@@ -109,6 +110,86 @@ export default function Profile() {
             </div>
           );
         })}
+        <div
+          style={{ fontSize: 12, color: "#C0C0C0" }}
+          className="my-3"
+        >
+          <a
+            href="#"
+            id="marks"
+          >
+            About
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Help
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Press
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Api
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Jobs
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Privacy
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Terms
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Locations
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Language
+          </a>
+          <BsDot />
+          <a
+            href="#"
+            id="marks"
+          >
+            Meta Verified
+          </a>
+        </div>
+        <div
+          style={{ color: "#c0c0c0", fontSize: 13 }}
+          className="my-2"
+        >
+          © 2023 INSTAGRAM FROM META
+        </div>
       </div>
     </>
   );
